@@ -135,19 +135,47 @@
             "position": "on generators, at target plane, facing top and bottom",
             "materials": [
                 {
-                    "position": "A 325 - top",
-                    "material": "Zr",
+                    "position": "P-383 - top",
+                    "material": "Nb",
+                    "designator": "Nb Packet #4",
+                    "number_of_foils": 2,
+                    "distance_to_source": {
+                        "value": 5.1,
+                        "unit": "cm"
+                    },
                     "mass": {
-                        "value": null,
+                        "value": 0.5467,
                         "unit": "g"
+                    },
+                    "mass_err": {
+                        "value": 0.0003,
+                        "unit": "g"
+                    },
+                    "thickness": {
+                        "value": 0.02,
+                        "unit": "inch"
                     }
                 },
                 {
-                    "position": "A 325 - bottom",
-                    "material": "Nb",
+                    "position": "P-383 - bottom",
+                    "material": "Zr",
+                    "designator": "Zr Packet #1",
+                    "number_of_foils": 8,
+                    "distance_to_source": {
+                        "value": 5.1,
+                        "unit": "cm"
+                    },
                     "mass": {
-                        "value": null,
+                        "value": 0.9036,
                         "unit": "g"
+                    },
+                    "mass_err": {
+                        "value": 0.0001,
+                        "unit": "g"
+                    },
+                    "thickness": {
+                        "value": 0.04,
+                        "unit": "inch"
                     }
                 }
             ]
